@@ -1,2 +1,2 @@
 # JavaScriptForKidsCodeRU
-Исходный код примеров программ из книги Ника Моргана «JavaScript для детей. Самоучитель по программированию.»
+Исходный код примеров программ из книги [Ника Моргана](https://github.com/skilldrick) [«JavaScript для детей. Самоучитель по программированию.»](https://www.mann-ivanov-ferber.ru/books/javascript-dlya-detej/)
