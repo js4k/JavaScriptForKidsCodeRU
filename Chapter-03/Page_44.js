@@ -1,12 +1,12 @@
 var dinosaurs = [];
-dinosaurs[0] = "T-Rex";
-dinosaurs[1] = "Velociraptor";
-dinosaurs[2] = "Stegosaurus";
-dinosaurs[3] = "Triceratops";
-dinosaurs[4] = "Brachiosaurus";
-dinosaurs[5] = "Pteranodon";
-dinosaurs[6] = "Apatosaurus";
-dinosaurs[7] = "Diplodocus";
-dinosaurs[8] = "Compsognathus";
+dinosaurs[0] = "Тираннозавр";
+dinosaurs[1] = "Велоцираптор";
+dinosaurs[2] = "Стегозавр";
+dinosaurs[3] = "Трицератопс";
+dinosaurs[4] = "Брахиозавр";
+dinosaurs[5] = "Птеранодон";
+dinosaurs[6] = "Апатозавр";
+dinosaurs[7] = "Диплодок";
+dinosaurs[8] = "Компсогнат";
 dinosaurs;
-// ["T-Rex", "Velociraptor", "Stegosaurus", "Triceratops", "Brachiosaurus", "Pteranodon", "Apatosaurus", "Diplodocus", "Compsognathus"]
+// ["Тираннозавр", "Велоцираптор", "Стегозавр", "Трицератопс", "Брахиозавр", "Птеранодон", "Апатозавр", "Диплодок", "Компсогнат"]
