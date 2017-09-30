@@ -1,5 +1,5 @@
 var dog = {
-  name: "Pancake",
+  name: "Оладушек",
   legs: 4,
   isAwesome: true
 };
