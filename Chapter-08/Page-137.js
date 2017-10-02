@@ -3,11 +3,11 @@ var fifthLetter = function (name) {
     return;
   }
 
-  return "The fifth letter of your name is " + name[4] + ".";
+  return "Пятая буква вашего имени: " + name[4] + ".";
 };
 
-fifthLetter("Nicholas");
+fifthLetter("Николай");
 // "The fifth letter of your name is o."
 
-fifthLetter("Nick");
+fifthLetter("Ник");
 // undefined
