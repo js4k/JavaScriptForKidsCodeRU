@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Keyboard input</title>
+    <title>Ввод с клавиатуры</title>
 </head>
 <body>
     <canvas id="canvas" width="400" height="400"></canvas>
@@ -22,7 +22,7 @@
       }
     };
 
-    // The Ball constructor
+    // Конструктор Ball
     var Ball = function () {
       this.x = width / 2;
       this.y = height / 2;
@@ -30,7 +30,7 @@
       this.ySpeed = 0;
     };
 
-    // Update the ball's position based on its speed
+    // Обновляем позицию мяча соответственно его скорости
     Ball.prototype.move = function () {
       this.x += this.xSpeed;
       this.y += this.ySpeed;
@@ -46,12 +46,12 @@
       }
     };
 
-    // Draw the ball at its current position
+    // Рисуем мяч в его текущей позиции
     Ball.prototype.draw = function () {
       circle(this.x, this.y, 10, true);
     };
 
-    // Set the ball's direction based on a string
+    // Задаем направление движения по строке с названием действия
     Ball.prototype.setDirection = function (direction) {
       if (direction === "up") {
         this.xSpeed = 0;
@@ -71,10 +71,10 @@
       }
     };
 
-    // Create the ball object
+    // Создаем объект-мяч
     var ball = new Ball();
 
-    // An object to convert keycodes into action names
+    // Объект для перевода кодов клавиш в названия действий
     var keyActions = {
       32: "stop",
       37: "left",
@@ -83,13 +83,13 @@
       40: "down"
     };
 
-    // The keydown handler that will be called for every keypress
+    // Обработчик события keydown, будет вызван при каждом нажатии клавиши
     $("body").keydown(function (event) {
       var direction = keyActions[event.keyCode];
       ball.setDirection(direction);
     });
 
-    // The animation function, called every 30 ms
+    // Функция анимации, вызывается раз в 30 мс
     setInterval(function () {
       ctx.clearRect(0, 0, width, height);
 

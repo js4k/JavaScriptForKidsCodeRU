@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Keyboard input</title>
+    <title>Ввод с клавиатуры</title>
 </head>
 <body>
     <canvas id="canvas" width="400" height="400"></canvas>
     <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     <script>
     var keyNames = {
-      32: "space",
-      37: "left",
-      38: "up",
-      39: "right",
-      40: "down"
+      32: "space", // пробел
+      37: "left", // влево
+      38: "up", // вверх
+      39: "right", // враво
+      40: "down" // вниз
     };
 
     $("body").keydown(function (event) {
