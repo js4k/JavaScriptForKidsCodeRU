@@ -1,5 +1,5 @@
 var doHomeworkAlarm = function () {
-  alert("Hey! You need to do your homework!");
+  alert("Эй! Пора делать домашку!");
 };
 
 var timeoutId = setTimeout(doHomeworkAlarm, 60000);

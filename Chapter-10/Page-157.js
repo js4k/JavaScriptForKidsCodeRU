@@ -1,5 +1,5 @@
 var timeUp = function () {
-  alert("Time's up!");
+  alert("Время вышло!");
 };
 
 setTimeout(timeUp, 3000);
