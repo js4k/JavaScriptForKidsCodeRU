@@ -7,7 +7,7 @@ var fifthLetter = function (name) {
 };
 
 fifthLetter("Николай");
-// "Пятая буква вашего имени: о."
+// "Пятая буква вашего имени: л."
 
 fifthLetter("Ник");
 // undefined
