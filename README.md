@@ -1,5 +1,5 @@
 # JavaScriptForKidsCodeRU
-Здесь вам предлагается перевод на русский язык исходного кода примеров программ из замечательной книги [Ника Моргана](https://github.com/skilldrick) [«JavaScript для детей. Самоучитель по программированию.»](https://www.mann-ivanov-ferber.ru/books/javascript-dlya-detej/)
+Здесь вам предлагается перевод на русский язык исходного кода примеров программ из замечательной книги [Ника Моргана](https://github.com/skilldrick) [«JavaScript для детей. Самоучитель по программированию»](https://www.mann-ivanov-ferber.ru/books/javascript-dlya-detej/).
 
 Архив со всеми файлами примеров [здесь](https://github.com/a1ip/JavaScriptForKidsCodeRU/archive/master.zip).
 
