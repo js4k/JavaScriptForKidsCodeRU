@@ -7,8 +7,8 @@ boringAnimals.join(" - ");
 // "Мартышка - Кот - Рыба - Ящерица"
 boringAnimals.join("*");
 // "Мартышка*Кот*Рыба*Ящерица"
-boringAnimals.join(" sees ");
-// "Мартышка sees Кот sees Рыба sees Ящерица"
+boringAnimals.join(" и ");
+// "Мартышка и Кот и Рыба и Ящерица"
 
 var myNames = ["Николас", "Эндрю", "Максвелл", "Морган"];
 myNames.join(" ");
