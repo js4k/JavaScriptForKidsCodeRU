@@ -18,7 +18,11 @@ var kate = { name: "Кейт", age: 9, luckyNumbers: [1, 2, 3] };
 var friends = [anna, dave, kate];
 
 friends[1];
-// { name: "Дейв", age: 5, luckyNumbers: Array[3] }
+// { name: "Дейв", age: 5, luckyNumbers: Array(3) }
+// этот неожиданный Array(3) вы увидите в консоли Google Chrome,
+// в других же браузерах вы получите более ожидаемый результат
+// { name: "Дейв", age: 5, luckyNumbers: [3, 9, 40] }
+
 
 friends[2].name
 // "Кейт"
